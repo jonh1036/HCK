@@ -1,0 +1,35 @@
+.v-application .success {
+    background-color: #27AE60 !important;
+    border-color: #27AE60 !important;
+}
+
+.v-application .info {
+    background-color: #0288d1 !important;
+    border-color: #0288d1 !important;
+}
+
+.v-application .warning {
+    background-color: #ed6c02 !important;
+    border-color: #ed6c02 !important;
+}
+
+.v-application .error {
+    background-color: #B00020 !important;
+    border-color: #B00020 !important;
+}
+
+.v-application .success, .v-application .error {
+    color: #FFF !important;
+    position: fixed !important;
+    bottom: 0 !important;
+    font-weight: 700;
+}
+
+.snackbarContainer {
+    display: flex;
+    align-items: center;
+}
+
+.snackbarContainer i {
+    margin-right: .5em;
+}
